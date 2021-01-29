@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container border border-success my-3">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="my-3" id="btnComment">Komentaras</button>
+                <form action="" name="form" class="border-top border-bottom border-2 my-2" id="form">
+                    <label for="nameBox">Vardas:</label>
+                    <br>
+                    <input type="text" name="name" id="nameBox" required>
+                    <br>
+                    <label for="commentBox">Komentaras:</label>
+                    <br>
+                    <textarea name="comment" id="commentBox" cols="70" rows="5" required></textarea>
+                    <br>
+                    <button type="submit" class="my-2" id="btnSubmit">Pateikti</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="JS/main.js"></script>
+</html>

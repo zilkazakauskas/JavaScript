@@ -1,0 +1,19 @@
+.normal{
+    width: 150px;
+}
+
+.left{
+    float:left;
+    width: 150px;
+}
+
+.right{
+    float:right;
+    width: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+

@@ -1,0 +1,27 @@
+#container{
+width: 1000px;
+}
+
+#spring{
+    background-image: url(../IMG/spring.jpg);
+    height: 700px;
+    width: 1000px;
+}
+
+#summer{
+    background-image: url(../IMG/summer.jpg);
+    height: 700px;
+    width: 1000px;
+}
+
+#autumn{
+    background-image: url(../IMG/autumn.jpg);
+    height: 700px;
+    width: 1000px;
+}
+
+#winter{
+    background-image: url(../IMG/winter.jpg);
+    height: 700px;
+    width: 1000px;
+}

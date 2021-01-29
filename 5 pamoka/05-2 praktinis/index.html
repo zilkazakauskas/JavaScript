@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="container">
+      <div class="row">
+          <div class="col border border-success my-2 py-2">
+              <h2>E-Bankas</h2>
+              <form onsubmit="return false">
+                  <label for="skaicius">Veiksmas:</label>
+                  <input type="number" name="skaicius" id="skaicius" min="1" required>
+                  <select name="veiksmas" id="veiksmas">
+                      <option value="papildyti">Papildyti</option>
+                      <option value="pasiimti">Pasiimti</option>
+                  </select>
+                  <p id="tekstas">Saskaitoje yra: <span id="likutis">300</span> Eur.</p>
+                  <button type="submit" class="btn btn-primary" id="btn">Atlikti veiksma</button>
+              </form>
+              <button class="btn btn-secondary my-2" id="btnIstorija">Rodyti istorija</button>
+              <button class="btn btn-secondary my-2" id="btnRusiuoti">Surusiuoti</button>
+              <button class="btn btn-secondary my-2" id="btnClear">Isvalyti istorija</button>
+              <p id="irasuIstorija"></p>
+          </div>
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
