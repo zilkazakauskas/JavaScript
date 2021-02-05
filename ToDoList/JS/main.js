@@ -38,7 +38,7 @@ function createListElement() {
 		if (li.classList.contains('done')) {
 			let endTime = new Date();
 			if (count == 1) {
-				alert(`Užduočiai įvykdyti jūs užtrukote: ${(endTime.getTime() - startTime.getTime()) / 1000} s.`);
+				swal("Užduotis įvykdyta!", `Užduočiai įvykdyti jūs užtrukote: ${(endTime.getTime() - startTime.getTime()) / 1000} s.`, "success");
 			}
 		}
 	}

@@ -7,9 +7,11 @@ body {
 h1 {
 	font-weight: 1000;
 	color: rgb(159, 165, 255);
+	 /* mirgsėjimo animacijai */
 	animation: blinker 1s step-start infinite;
 	letter-spacing: 10px;
 }
+/* mirgsėjimo animacijai */
 @keyframes blinker {
 	50% {
 	  opacity: 50%;
@@ -87,3 +89,9 @@ input {
 .hidden{
 	opacity: 0%;
 }
+
+/* #initials{
+	position: absolute;
+	bottom: 0;
+	color: white;
+} */
